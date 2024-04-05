@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>version.json</file>
+    <file>resources/img/icons/excavator.ico</file>
+    <file>resources/img/icons/excavator.png</file>
+    <file>resources/img/icons/folder-plus.svg</file>
+    <file>resources/img/icons/settings.svg</file>
+    <file>resources/img/icons/log-out.svg</file>
+</qresource>
+</RCC>

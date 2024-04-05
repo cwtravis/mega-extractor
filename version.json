@@ -1,0 +1,9 @@
+{
+    "version": "0.0.1",
+    "ico": "./resources/img/icons/excavator.ico",
+    "company_name": "ChillAspect",
+    "product_name": "MegaExtractor",
+    "description": "Monitor a directory for archives and extract them.",
+    "author": "Cody Travis",
+    "author_email": "cwtravis@gmail.com"
+}
