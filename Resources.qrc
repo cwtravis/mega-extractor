@@ -6,5 +6,6 @@
     <file>resources/img/icons/folder-plus.svg</file>
     <file>resources/img/icons/settings.svg</file>
     <file>resources/img/icons/log-out.svg</file>
+    <file>resources/img/icons/file-text.svg</file>
 </qresource>
 </RCC>

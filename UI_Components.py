@@ -1,6 +1,81 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
+## Form generated from reading UI file 'LogDialog.ui'
+##
+## Created by: Qt User Interface Compiler version 6.5.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QDialog, QLabel, QSizePolicy,
+    QTextBrowser, QVBoxLayout, QWidget)
+
+class Ui_LogDialog(object):
+    def setupUi(self, LogDialog):
+        if not LogDialog.objectName():
+            LogDialog.setObjectName(u"LogDialog")
+        LogDialog.resize(865, 516)
+        self.verticalLayout_2 = QVBoxLayout(LogDialog)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.widget_2 = QWidget(LogDialog)
+        self.widget_2.setObjectName(u"widget_2")
+        self.verticalLayout_3 = QVBoxLayout(self.widget_2)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.status_label = QLabel(self.widget_2)
+        self.status_label.setObjectName(u"status_label")
+        font = QFont()
+        font.setPointSize(14)
+        self.status_label.setFont(font)
+
+        self.verticalLayout_3.addWidget(self.status_label)
+
+
+        self.verticalLayout_2.addWidget(self.widget_2)
+
+        self.widget = QWidget(LogDialog)
+        self.widget.setObjectName(u"widget")
+        self.verticalLayout = QVBoxLayout(self.widget)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.label = QLabel(self.widget)
+        self.label.setObjectName(u"label")
+
+        self.verticalLayout.addWidget(self.label)
+
+        self.log_browser = QTextBrowser(self.widget)
+        self.log_browser.setObjectName(u"log_browser")
+
+        self.verticalLayout.addWidget(self.log_browser)
+
+
+        self.verticalLayout_2.addWidget(self.widget)
+
+
+        self.retranslateUi(LogDialog)
+
+        QMetaObject.connectSlotsByName(LogDialog)
+    # setupUi
+
+    def retranslateUi(self, LogDialog):
+        LogDialog.setWindowTitle(QCoreApplication.translate("LogDialog", u"MegaExtractor Log", None))
+        self.status_label.setText(QCoreApplication.translate("LogDialog", u"Status: ", None))
+        self.label.setText(QCoreApplication.translate("LogDialog", u"Log:", None))
+    # retranslateUi
+
+
+
+# -*- coding: utf-8 -*-
+
+################################################################################
 ## Form generated from reading UI file 'SettingsDialog.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.1
@@ -111,7 +186,7 @@ class Ui_SettingsDialog(object):
         self.widget_5.setMinimumSize(QSize(100, 0))
         self.verticalLayout = QVBoxLayout(self.widget_5)
         self.verticalLayout.setObjectName(u"verticalLayout")
-        self.verticalLayout.setContentsMargins(-1, 0, -1, -1)
+        self.verticalLayout.setContentsMargins(-1, 0, -1, 0)
         self.add_password_button = QPushButton(self.widget_5)
         self.add_password_button.setObjectName(u"add_password_button")
 
@@ -122,9 +197,19 @@ class Ui_SettingsDialog(object):
 
         self.verticalLayout.addWidget(self.delete_password_button)
 
-        self.verticalSpacer = QSpacerItem(20, 154, QSizePolicy.Minimum, QSizePolicy.Expanding)
+        self.verticalSpacer = QSpacerItem(20, 105, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout.addItem(self.verticalSpacer)
+
+        self.move_up_button = QPushButton(self.widget_5)
+        self.move_up_button.setObjectName(u"move_up_button")
+
+        self.verticalLayout.addWidget(self.move_up_button)
+
+        self.move_down_button = QPushButton(self.widget_5)
+        self.move_down_button.setObjectName(u"move_down_button")
+
+        self.verticalLayout.addWidget(self.move_down_button)
 
 
         self.horizontalLayout_2.addWidget(self.widget_5)
@@ -233,6 +318,8 @@ class Ui_SettingsDialog(object):
         self.groupBox_4.setTitle(QCoreApplication.translate("SettingsDialog", u"Password List", None))
         self.add_password_button.setText(QCoreApplication.translate("SettingsDialog", u"Add", None))
         self.delete_password_button.setText(QCoreApplication.translate("SettingsDialog", u"Delete", None))
+        self.move_up_button.setText(QCoreApplication.translate("SettingsDialog", u"Move Up", None))
+        self.move_down_button.setText(QCoreApplication.translate("SettingsDialog", u"Move Down", None))
         self.groupBox.setTitle(QCoreApplication.translate("SettingsDialog", u"Settings", None))
         self.label_3.setText(QCoreApplication.translate("SettingsDialog", u"Check Frequency:", None))
         self.frequency_spinner.setSuffix(QCoreApplication.translate("SettingsDialog", u"s", None))

@@ -150,6 +150,9 @@
             <property name="topMargin">
              <number>0</number>
             </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
             <item>
              <widget class="QPushButton" name="add_password_button">
               <property name="text">
@@ -172,10 +175,24 @@
               <property name="sizeHint" stdset="0">
                <size>
                 <width>20</width>
-                <height>154</height>
+                <height>105</height>
                </size>
               </property>
              </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="move_up_button">
+              <property name="text">
+               <string>Move Up</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="move_down_button">
+              <property name="text">
+               <string>Move Down</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
